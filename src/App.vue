@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h2>{{ $t("name") }}</h2>
+    <button @click="changeLang">切换语言</button>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  components: {},
+  methods: {
+    changeLang: function () {
+      // 获取当前语言类型
+      let lang = this.$i18n.lang;
+
+      this.$i18n.setLang(lang === "en" ? "zh_CHS" : "en");
+    },
   },
 };
 </script>

@@ -1,0 +1,11 @@
+{
+  "name": "i18n-jousenzhou",
+  "version": "1.0.1",
+  "description": "i18n国际化 轻身版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JousenZhou",
+  "license": "ISC"
+}
