@@ -1,5 +1,5 @@
 <div align="center">
-<h1>i18-vue-simple</h1>
+<h1>i18n-vue-simple</h1>
 <p>
   <strong>i18n-vue (2.0) international plug-in lightweight version</strong>
   <br /><br />
@@ -22,9 +22,9 @@
 
 ```bash
 # 获取远程仓库代码
-git clone https://github.com/JousenZhou/i18-vue-simple
+git clone https://github.com/JousenZhou/i18n-vue-simple
 # 进入目录
-cd i18-vue-simple
+cd i18n-vue-simple
 # 安装依赖
 yarn
 # 启动项目
